@@ -1,0 +1,9 @@
+python-telegram-bot 
+boto3 
+openai 
+requests 
+matplotlib 
+pytz
+thingspeak
+Flask
+gunicorn

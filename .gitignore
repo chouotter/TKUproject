@@ -1,0 +1,53 @@
+# Python 快取
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 環境變數與設定檔
+.env
+.env.*
+config.pyc
+
+# Jupyter notebook checkpoint
+.ipynb_checkpoints/
+
+# VSCode 編輯器設定
+.vscode/
+
+# 虛擬環境
+venv/
+.env/
+.venv/
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# Log / Output
+*.log
+
+# Pipenv / Poetry / Pip wheel
+Pipfile.lock
+poetry.lock
+*.whl
+
+# AWS / CLI credentials（如果有）
+.aws/
+
+# pyinstaller 產出的 dist
+dist/
+build/
+*.spec
+
+# mypy / coverage / pytest 等工具產出的檔
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Telegram Bot token / chat history（如果有自定的儲存檔案）
+*.db
+*.sqlite3
+*.json
