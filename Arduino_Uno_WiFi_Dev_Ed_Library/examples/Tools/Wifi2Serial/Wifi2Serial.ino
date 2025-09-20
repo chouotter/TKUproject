@@ -1,3 +1,14 @@
+/*
+  Arduino Uno WiFi Wifi2Serial example
+ This example for the Arduino Uno WiFi shows how to use the
+ board as a simple bridge trough the WiFi and the serial monitor.
+ Open the Arduino IDE Serial Monitor, select Both NL & CR on the bottom right
+ and connect to the WiFi via a telnet client at the address 192.168.240.1:23
+ where 192.168.240.1 is the IP of your  Arduino Uno Wifi and 23 is the port.
+ Otherwise you can send commands from you browser
+ http://192.168.240.1/arduino/custom/yourpersonalmessage
+ This example code is part of the public domain
+ */
 #include <Wire.h>
 #include <UnoWiFiDevEd.h>
 

@@ -1,3 +1,7 @@
+/*
+This sketch Read the MAC Address from the ESP8266EX and print the code in the console.
+*/
+
 #include <Wire.h>
 #include <UnoWiFiDevEd.h>
 

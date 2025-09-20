@@ -1,3 +1,14 @@
+/*
+File: WebServerBlink.ino
+This example creates a simple web server on your Arduino Uno WiFi. It serves a
+simple web page with 2 buttons that can be used to switch on and off on-board led 13.
+Please type on your browser http://<IP>/arduino/webserver/ or http://<hostname>.local/arduino/webserver/
+
+Note: works only with Arduino Uno WiFi Developer Edition.
+
+http://www.arduino.org/learning/tutorials/boards-tutorials/webserverblink
+*/
+
 #include <Wire.h>
 #include <UnoWiFiDevEd.h>
 
