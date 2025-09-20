@@ -1,13 +1,3 @@
-/*
-File: RestClient.ino
-This example makes an HTTP request after 10 seconds and shows the result both in
-serial monitor and in the wifi console of the Arduino Uno WiFi.
-
-Note: works only with Arduino Uno WiFi Developer Edition.
-
-http://www.arduino.org/learning/tutorials/boards-tutorials/restserver-and-restclient
-*/
-
 #include <Wire.h>
 #include <UnoWiFiDevEd.h>
 

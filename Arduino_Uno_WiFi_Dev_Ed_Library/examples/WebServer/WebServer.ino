@@ -1,14 +1,3 @@
-/*
-File: WebServer.ino
-This example creates a simple web server on your Arduino Uno WiFi. It serves a
-simple web page which shows values of the analog pins, and refreshes every 20 seconds.
-Please type on your browser http://<IP>/arduino/webserver/ or http://<hostname>.local/arduino/webserver/
-
-Note: works only with Arduino Uno WiFi Developer Edition.
-
-http://www.arduino.org/learning/tutorials/boards-tutorials/webserver
-*/
-
 #include <Wire.h>
 #include <UnoWiFiDevEd.h>
 
@@ -53,5 +42,5 @@ void WebServer(WifiData client) {
 
   client.print("</body>");
   client.println("</html>");
-  client.print(DELIMITER); // very important to end the communication !!!
+  client.print(DELIMITER); 
 }

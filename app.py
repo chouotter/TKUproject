@@ -118,7 +118,7 @@ def handle_message(update: Update) -> None:
                     response_text = "格式錯誤或是輸入錯誤"
                     send_message(chat_id, response_text)
             elif user_message.lower().startswith("ai:") or user_message.lower().startswith("ai："):
-                user_msg = user_message[3:]  # Extract string after the colon
+                user_msg = user_message[3:]  
                 try:
                     client = OpenAI(api_key=OPEN_AI_KEY)
                     response = client.chat.completions.create(
